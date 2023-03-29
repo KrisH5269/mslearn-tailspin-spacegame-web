@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Default: 'firstAgent'
+  vmImage: 'firstAgent'
 
 variables:
   buildConfiguration: 'Release'
